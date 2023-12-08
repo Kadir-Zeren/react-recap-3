@@ -6,7 +6,7 @@ const Card = ({ lang, img, btn }) => {
     <div>
       <h1>{lang}</h1>
       <img src={img} alt="image" />
-      <Buton />
+      <Buton btn={btn} />
     </div>
   );
 };

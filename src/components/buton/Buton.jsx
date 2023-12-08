@@ -1,7 +1,7 @@
 import "./Buton.css";
 
-const Buton = () => {
-  return <div>Buton</div>;
+const Buton = ({ btn }) => {
+  return <button>{btn}</button>;
 };
 
 export default Buton;
